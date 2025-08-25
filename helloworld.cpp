@@ -112,16 +112,11 @@ int main(){
   else {
     cout << "Invalid input!\n";
   }
-
-
-
-
-
-
-
   
  return 0;
 }
+
+
 
 void membershipCalculator(int desiredMembership){
   int amount;
@@ -150,4 +145,5 @@ void membershipCalculator(int desiredMembership){
   } while (amount < desiredMembership);
 
 }
+
 
