@@ -5,19 +5,6 @@
   void membershipCalculator(int desiredMembership);
 
 int main(){
-  
-  // Check if they're a gym member
-  // If not, offer them a gym membership
-  // Make them choose between cash, bank or e-wallet
-  // They need to enter an amount of money
-  // Anything over they are given change
-  // Anything under will error
-  // Confirm they are now a gym member then move on to the true
-
-  // If yes, make them choose between programs
-  // exit out when they chose a program
-
-
   char gymMembership;
   int bronzeMember = 250;
   int silverMember = 500;
@@ -163,3 +150,4 @@ void membershipCalculator(int desiredMembership){
   } while (amount < desiredMembership);
 
 }
+
